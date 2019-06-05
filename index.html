@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marielle Combier-Kapel</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="/images/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="/images/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="/images/favicon-16x16.png"
+  />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
+    integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y"
+    crossorigin="anonymous"
+  />
+
+  <body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+      <div class="w3-bar" id="myNavbar">
+        <a
+          class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-middle"
+          href="javascript:void(0);"
+          onclick="toggleFunction()"
+          title="Toggle Navigation Menu"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="w3-bar-item w3-button">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-user"></i> ABOUT</a
+        >
+        <a href="#projects" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fas fa-project-diagram"></i> PROJECTS</a
+        >
+        <a href="#experience" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fas fa-backward"></i> EXPERIENCE</a
+        >
+        <a href="Marielle.CombierKapel.pdf" target='_blank' class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fas fa-file"></i> RESUME</a
+        >
+        <a href="mailto:marielle.combierkapel@gmail.com?subject=Hi Marielle!" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fa fa-envelope"></i> CONTACT</a
+        >
+        <a href="#footer" class="w3-bar-item w3-button w3-hide-small"
+          ><i class="fas fa-link"></i> LINKS</a
+        >
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div
+        id="navDemo"
+        class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium"
+      >
+        <a
+          href="#about"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >ABOUT</a
+        >
+        <a
+          href="#projects"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >PROJECTS</a
+        >
+        <a
+          href="#experience"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >EXPERIENCE</a
+        >
+        <a
+          href="Marielle.CombierKapel.pdf"
+          target='_blank'
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >RESUME</a
+        >
+        <a
+        href="mailto:marielle.combierkapel@gmail.com?subject=Hi Marielle!"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >CONTACT</a
+        >
+        <a
+          href="#footer"
+          class="w3-bar-item w3-button"
+          onclick="toggleFunction()"
+          >LINKS</a
+        >
+      </div>
+    </div>
+
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+      <div class="w3-display-middle" style="white-space:nowrap;">
+        <span
+          class="w3-center w3-padding-large w3-xxxlarge w3-wide w3-text-white"
+          >Marielle <span class="w3-hide-small">Combier-Kapel</span
+        >
+      </div>
+    </div>
+
+    <!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="about">
+      <h3 class="w3-center">ABOUT ME</h3>
+      <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+          <br />
+          <img
+            src="images/meee.jpg"
+            class="w3-round w3-image"
+            alt="Photo of Me"
+            width="500"
+            height="333"
+          />
+        </div>
+
+
+        <div class="w3-col m6 w3-padding-large">
+
+          <p>
+            I am a fullstack software engineer in New York City. My programming language is Javascript, and I am proficient in the NERD (Node.js, Express, React/Redux, and Databases(PostgreSQL)) stack. I am a psychology major, turned yoga instructor, turned web developer. I love traveling and exploring new places, and enjoy a challenging hike through nature. I spend most of my time doing yoga, attending concerts, and hanging out with my dog Max. I am a bananagrams master, and love solving puzzles.
+          </p>
+          <p>
+            I graduated from New York University with a BS in Applied Psychology, which was deeply rooted in culture, education, and research. I loved learning about what makes people tick, and the complexities of the human experience. I realized toward the end of my time at NYU that I was compelled by the experience of trying to understand something extremely complex (the human mind!), rather than by the prospect of a career in the field. I initially started playing around with HTML and CSS to pass the time, but I soon fell in love with coding. I love programming because it marries my love of puzzles/problem solving, my deep desire to understand complexity, and my creative fire to build useful tools. I am so excited to be in a field that is constantly changing, and am looking forward to career of continuous learning!
+          </p>
+        </div>
+      </div>
+    </div>
+  </br>
+
+
+    <!-- Second Parallax Image with Portfolio Text -->
+    <div id="projects" class="bgimg-2 w3-display-container w3-opacity-min">
+      <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide">PROJECTS</span>
+      </div>
+      <div class='w3-display-bottommiddle w3-xlarge w3-text-black project-links'>
+          <a class='w3-button w3-hover-shadow' href='#platypus'>PLATYPUS</a>
+          <a class='w3-button w3-hover-shadow' href='#timeless'>TIMELESS WATCHES</a>
+          <a class='w3-button w3-hover-shadow' href='#space'>SPACE FINDER</a>
+        </div>
+    </div>
+
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" >
+
+      <div  class="w3-content w3-container w3-padding-64">
+        <div class='nothing' id='platypus'></div>
+        <p class="w3-center">
+          <div >
+        <h1  class="w3-center"><em>PLATYPUS</em></h1></br>
+        <div class="w3-center">
+          <iframe class='video' width="560" height="315" src="https://www.youtube.com/embed/MjwwKJ3KATU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+        <h4 class="w3-center">Crowd-sourced playlist application</h4>
+        <p><em>Deployed <a class='link' href='https://platypus-music.herokuapp.com' target='_blank'>HERE</a></em></p>
+        <p>
+          Platypus is an app that allows users to collaborate on a single playlist. One user hosts a room and is given a room key to invite others to join that room. Anyone with the room key can access the playlist of that room and search for songs to add or vote on what they want to hear. Users are limited to one vote per song so they cannot override the wishes of the majority, and the crowd favorite will always be the next in queue. Platypus was developed in 2.5 weeks from inception to "completed" (is anything ever really done?). I worked on all aspects of this project, and there were two major hurdles: <ul><li>Setting up socket rooms so each room only received information intended for that specific room</li><li>Limiting users to one vote per song, per room, which involved an overhaul of our schema and a through table linking to another through table</li></ul>
+
+        </p>
+
+        <p class="w3-center">
+          Team Members: Marielle Combier-Kapel, Eileen Galindo, Samiul Huque, Keith Nocera
+        </p>
+      </div>
+      <div class="w3-row w3-center w3-black w3-padding-20 w3-opacity">
+          <div class="w3-quarter w3-section">
+            <span class="w3-large">Node</span>
+          </div>
+          <div class="w3-quarter w3-section">
+              <span class="w3-large">Express</span>
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-large">React</span>
+              </div>
+              <div class="w3-quarter w3-section">
+                  <span class="w3-large">Redux</span>
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-large">React-Redux</span>
+                  </div>
+                  <div class="w3-quarter w3-section">
+                      <span class="w3-large">Sequelize</span>
+                    </div>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-large">Google Cloud Storage</span>
+                      </div>
+                      <div class="w3-quarter w3-section">
+                          <span class="w3-large">Semantic UI</span>
+                        </div>
+                        <div class="w3-quarter w3-section">
+                            <span class="w3-large">PostgreSQL</span>
+                          </div>
+                          <div class="w3-quarter w3-section">
+                              <span class="w3-large">Socket.io</span>
+                            </div>
+                            <div class="w3-quarter w3-section">
+                                <span class="w3-large">Sessions</span>
+                              </div>
+                              <div class="w3-quarter w3-section">
+                                  <span class="w3-large">Google OAuth</span>
+                                </div>
+        </div>
+
+      </br>
+    </br>
+
+    <div class='nothing' id='timeless'></div>
+        <p class="w3-center">
+            <div>
+          <h1 class="w3-center"><em>TIMELESS WATCHES</em></h1></br>
+          <div class="w3-center timeless-pics">
+            <img src='/images/timeless.png'/>
+            <img src='/images/watchview.png'/>
+        </div>
+          <h4 class="w3-center">E-commerce website to purchase luxury watches</h4>
+          <p><em>Deployed <a class='link' href='https://timelesswatches.herokuapp.com' target='_blank'>HERE</a></em></p>
+          <p>
+           Timeless Watches is a retail website with the look and feel of luxury. Shoppers can browse as a guest or a logged in user, and view all of our watches, or click on a watch to see specific details. When a watch is added to the cart, you can add more or remove it entirely. The cart persists if you refresh and even if you log out, your cart will be waiting for you when you log back in. A user can checkout using stripe, and view their order history. Users can also update their profile information, but only admins can delete products from the site. This site was completed in 1 week, and some major hurdles included: <ul><li>Cart persistence through most use-cases, but not when a logged in user logs out</li><li>Implementing the stripe api to take payment</li></ul>
+
+          </p>
+        </br>
+          <p class="w3-center">
+            Team Members: Marielle Combier-Kapel, Eileen Galindo, Sasha Kayola, Jason Levine
+          </p>
+        </div>
+        <div class="w3-row w3-center w3-black w3-padding-20 w3-opacity">
+            <div class="w3-quarter w3-section">
+              <span class="w3-large">Node</span>
+            </div>
+            <div class="w3-quarter w3-section">
+                <span class="w3-large">Express</span>
+              </div>
+              <div class="w3-quarter w3-section">
+                  <span class="w3-large">React</span>
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-large">Redux</span>
+                  </div>
+                  <div class="w3-quarter w3-section">
+                      <span class="w3-large">React-Redux</span>
+                    </div>
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-large">Sequelize</span>
+                      </div>
+                      <div class="w3-quarter w3-section">
+                          <span class="w3-large">CSS</span>
+                        </div>
+
+                          <div class="w3-quarter w3-section">
+                              <span class="w3-large">PostgreSQL</span>
+                            </div>
+                            <div class="w3-quarter w3-section">
+                                <span class="w3-large">Stripe API</span>
+                              </div>
+                              <div class="w3-quarter w3-section">
+                                  <span class="w3-large">Local Storage</span>
+                                </div>
+                                <div class="w3-quarter w3-section">
+                                    <span class="w3-large">Sessions</span>
+                                  </div>
+                                  <div class="w3-quarter w3-section">
+                                      <span class="w3-large">Google OAuth</span>
+                                    </div>
+          </div>
+
+
+</br>
+</br>
+<div class='nothing' id='space'></div>
+          <p class="w3-center">
+              <div>
+            <h1 class="w3-center"><em>SPACE FINDER</em></h1></br>
+            <div class="w3-center screenshots">
+              <img class='screenshot' src='/images/IMG_3915.jpg'/>
+              <img class='screenshot' src='/images/IMG_3917.jpg'/>
+          </div>
+            <h4 class="w3-center">React Native application to locate privately owned public spaces in NYC</h4>
+            <p><em>Code on github <a class='link' href='https://github.com/marzipanick/space-finder' target='_blank'>HERE</a></em></p>
+            <p>
+              Have you ever walked past a building and realized there were trees in the lobby? Or maybe it was an outdoor space with tables and chairs and a waterfall? New York City has hundreds of these spaces that are privately owned (well maintained), but open for use by the general public. I have only ever discovered these spaces by accidentally walking past one, or having someone who happened to walk past one tell me about it. So I created Space Finder which takes the data from the city of New York, and gives you the exact locations with pins on a map, and a description of the type of space that is there. Space Finder was created in 4 days for a hackathon and had many hurdles such as: <ul><li>The data was originally in Microsoft Access which I was unable to open on a mac, so I used a PC to convert the data into JSON</li><li>The data itself was not as comprehensive as I had hoped, hence the use of the MapQuest geocoding API</li><li>I learned a new technology for this project, React Native with expo, and figured out that expo runs on it's own local host so the server I created had to use my computer's IP address, which changed depending on my location</li></ul>
+            </p>
+          </br>
+            <p class="w3-center">
+              Sole developer
+            </p>
+          </div>
+          <div class="w3-row w3-center w3-black w3-padding-20 w3-opacity">
+              <div class="w3-quarter w3-section">
+                  <span class="w3-large">React Native</span>
+                </div>
+                <div class="w3-quarter w3-section">
+                    <span class="w3-large">Expo</span>
+                  </div>
+              <div class="w3-quarter w3-section">
+                <span class="w3-large">Node</span>
+              </div>
+              <div class="w3-quarter w3-section">
+                  <span class="w3-large">Express</span>
+                </div>
+
+
+                    <div class="w3-quarter w3-section">
+                        <span class="w3-large">React-Redux</span>
+                      </div>
+                      <div class="w3-quarter w3-section">
+                          <span class="w3-large">Sequelize</span>
+                        </div>
+                        <div class="w3-quarter w3-section">
+                            <span class="w3-large">CSS</span>
+                          </div>
+
+                            <div class="w3-quarter w3-section">
+                                <span class="w3-large">PostgreSQL</span>
+                              </div>
+                              <div class="w3-quarter w3-section">
+                                  <span class="w3-large">NYC Government Data</span>
+                                </div>
+                                <div class="w3-quarter w3-section">
+                                    <span class="w3-large">MapQuest Geocoding API</span>
+                                  </div>
+
+
+            </div>
+
+    </div>
+  </div>
+
+
+    <div id="experience" class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+          <span class="w3-xxlarge w3-text-white w3-wide">EXPERIENCE</span>
+        </div>
+      </div>
+
+
+
+
+
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="w3-content w3-container w3-padding-64" >
+      <div class='experience-resume w3-large'>
+        <span>View my full resume
+            <a class='link' href="Marielle.CombierKapel.pdf" target='_blank'
+            >HERE</a
+          ></span>
+        </div>
+
+
+
+
+        <div class='experience-cards'>
+        <div class='school-cards'>
+            <h1>School</h1>
+            <div class="w3-card-2" >
+                <img src="/images/fsa-logo.png" alt="Fullstack Academy">
+                <button onclick="accordianFunction('fullstack')" class="w3-button w3-block">
+                    View Details</button>
+
+                    <div id="fullstack" class="w3-container w3-hide">
+                      <p>May 2019</p>
+                      <ul>
+                        <li>
+                          Completed a 17 week immersive fullstack software development course
+                        </li>
+                        <li>
+                            Learned frontend and backend development with specialization in Javascript, Node.js, Express, Sequelize, PostgreSQL, React, and Redux
+                        </li>
+                        <li>
+                            Developed multiple high quality products in a limited timeframe both individually and as a part of a team
+                        </li>
+                      </ul>
+                    </div>
+              </div>
+              <div class="w3-card-2">
+                  <img src="/images/codecademy.png" alt="Codecademy">
+                  <button onclick="accordianFunction('codecademy')" class="w3-button w3-block">
+                      View Details</button>
+                      <div id="codecademy" class="w3-container w3-hide">
+                          <p>2018</p>
+                          <p>'Build a Website From Scratch'</p>
+                          <ul>
+                            <li>
+                                Completed a 10 week intensive front-end course
+                            </li>
+                            <li>
+                              Learned advanced HTML and CSS, along with some Jquery
+                            </li>
+                          </ul>
+                          <span>View my capstone <a class='link' href='https://github.com/marzipanick/colmar_academy' target='_blank'>HERE</a></span>
+                        </div>
+                </div>
+                <div class="w3-card-2">
+                    <img src="/images/nyu.png" alt="NYU">
+                    <button onclick="accordianFunction('nyu')" class="w3-button w3-block">
+                        View Details</button>
+
+                        <div id="nyu" class="w3-container w3-hide">
+                          <p>2014</p>
+                          <p>BS Applied Psychology && AS Liberal Arts</p>
+                          <ul>
+                            <li>
+                              Spent my freshman year abroad in Florence, Italy
+                            </li>
+                            <li>
+                              Spent 3 years on a research team studying the achievement gap and the impact of meditation when implemented in at-risk schools
+                            </li>
+                          </ul>
+
+                        </div>
+                  </div>
+        </div>
+
+        <div class='work-cards'>
+            <h1>Work</h1>
+            <div class="w3-card-2">
+                <img src="/images/gracehopper.jpeg" alt="Grace Hopper">
+                <button onclick="accordianFunction('gh')" class="w3-button w3-block">
+                    View Details</button>
+
+                    <div id="gh" class="w3-container w3-hide">
+                      <p>Software Engineering Teaching Fellow</p>
+                      <p>June 2019 - Present</p>
+                      <ul>
+                        <li>
+                            Daily mentorship of 20 students on engineering technical concepts, software architecture, and debugging strategies
+                        </li>
+                        <li>
+                            Curate algorithms for admissions assessments and conduct technical interviews for applicants
+                        </li>
+                        <li>
+                            Lead weekly interactive review lectures covering implementation of full­range APIs and best practices of Fullstack’s NERD stack
+                        </li>
+                      </ul>
+                    </div>
+              </div>
+              <div class="w3-card-2">
+                  <img src="/images/warby.png" alt="Warby Parker">
+                  <button onclick="accordianFunction('wp')" class="w3-button w3-block">
+                      View Details</button>
+
+                      <div id="wp" class="w3-container w3-hide">
+                        <p>Sales Advisor/ Social Innovation Lead</p>
+                        <p>Nov. 2017 to Feb. 2019</p>
+                        <ul>
+                          <li>
+                              Effectively drove sales through extensive product knowledge, consistently top sales for the day
+                          </li>
+                          <li>
+                              Passionately communicated the philosophy and impact of the brand
+                          </li>
+                          <li>
+                              Trained and supervised five to ten new members of a 20 person sales team
+                          </li>
+                        </ul>
+                      </div>
+                </div>
+                <div class="w3-card-2">
+                    <img src="/images/bac.jpeg" alt="Brooklyn Athletic Club">
+                    <button onclick="accordianFunction('bac')" class="w3-button w3-block">
+                        View Details</button>
+
+                        <div id="bac" class="w3-container w3-hide">
+                          <p>Assistant Operations Manager/ Membership Consultant</p>
+                          <p>Feb. 2016 to Oct. 2017</p>
+                          <ul>
+                            <li>
+                                Managed and tracked up to 400 member accounts to ensure all information was correct and that memberships were up to date
+                            </li>
+                            <li>
+                                Anticipated and resolved issues to ensure positive member experience and retention
+                            </li>
+                            <li>
+                                Trained and supervised new employees and assisted in on­boarding process
+                            </li>
+                          </ul>
+                        </div>
+                  </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer
+      id="footer" class="w3-center w3-black w3-padding-64 w3-opacity"
+    >
+      <a href="#home" class="w3-button w3-light-grey"
+        ><i class="fa fa-arrow-up w3-margin-right"></i>Scroll to top</a
+      >
+      <div class="w3-xxxlarge w3-section social-links">
+          <a class=" w3-hover-opacity" href="mailto:marielle.combierkapel@gmail.com?subject=Hi Marielle!">
+              <i class="fas fa-envelope-square"></i>
+            </a>
+            <a class=" w3-hover-opacity"
+              href="https://www.linkedin.com/in/marielle-combier-kapel/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a class=" w3-hover-opacity"
+            href="https://github.com/marzipanick" target="_blank">
+              <i class="fab fa-github-square"></i>
+            </a>
+          </div>
+              <div class="w3-medium">
+              ©Built by Marielle
+            </div>
+    </footer>
+
+    <script>
+      function accordianFunction(id) {
+              let el = document.getElementById(id);
+              if (el.className.indexOf("w3-show") == -1) {
+                el.className += " w3-show";
+              } else {
+                el.className = el.className.replace(" w3-show", "");
+              }
+            }
+
+      // Modal Image Gallery
+      function onClick(element) {
+        document.getElementById('img01').src = element.src
+        document.getElementById('modal01').style.display = 'block'
+        var captionText = document.getElementById('caption')
+        captionText.innerHTML = element.alt
+      }
+
+      // Change style of navbar on scroll
+      window.onscroll = function() {
+        myFunction()
+      }
+      function myFunction() {
+        var navbar = document.getElementById('myNavbar')
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          navbar.className =
+            'w3-bar' + ' w3-card' + ' w3-animate-top' + ' w3-white'
+        } else {
+          navbar.className = navbar.className.replace(
+            ' w3-card w3-animate-top w3-white',
+            ''
+          )
+        }
+      }
+
+      // Used to toggle the menu on small screens when clicking on the menu button
+      function toggleFunction() {
+        var x = document.getElementById('navDemo')
+        if (x.className.indexOf('w3-show') == -1) {
+          x.className += ' w3-show'
+        } else {
+          x.className = x.className.replace(' w3-show', '')
+        }
+      }
+    </script>
+  </body>
+</html>
